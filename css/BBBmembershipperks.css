@@ -1,0 +1,203 @@
+body { /* font & background */
+  font-family: 'Segoe UI', 'sans-serif';
+  background-color: #ede5b2;
+}
+.BBBlogo {
+  display: flex;
+  align-items: fill;
+  justify-content: center;
+  height:max-content;
+  width: auto;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  font-family: 'Segoe UI', 'sans-serif';
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: top;
+}
+
+ul li a {
+  display: flex;
+  list-style-type: none;
+  color: #d8986d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.infobox {
+  background-color: #333333;
+  color: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha);
+  position: relative;
+  z-index: 1000;
+
+}
+
+.membership-box{
+    background-color: #333333;
+    color: #d8986d;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.membership-box h1{
+    color: #d8986d;
+    margin-top: 0;
+    text-align: center;
+}
+
+.membership-box p{
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    gap:30px;
+    margin:40px;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:75%;              /* Covers the image only */
+    background:rgba(0,0,0,0.75);
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    opacity:0;
+    transition:0.4s ease;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.card:hover .overlay{
+    opacity:1;
+}
+
+.card{
+    width:32%;
+     border: 5px solid #333333;
+     background-color: #333333;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align:center;
+    text-decoration:none;
+    color:#d8986d;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-bottom: 2px solid black;
+}
+
+.card p{
+    margin-top:10px;
+    font-size:22px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #d8986d;
+}
+
+.card h3{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    background-color:#333;
+    color:#d8986d;
+    box-sizing: border-box;
+}
+
+    
+    
+
+.footer-logo img{
+    width: 240px;
+}
+
+.footer-about{
+    width:40%;
+    text-align:center;
+}
+
+.footer-about h3{
+    margin-bottom:10px;
+}
+
+.footer-contact{
+    width:25%;
+    text-align:left;
+    font-family:'Segoe UI', 'sans-serif';
+}
+
+.footer-contact p{
+    margin:8px 0;
+}
