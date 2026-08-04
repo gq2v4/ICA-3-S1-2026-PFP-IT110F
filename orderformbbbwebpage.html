@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>Bubble Tea Bros</title>
+
+
+</head>
+
+<body>
+
+<header>
+    <h1>Bubble Tea Bros</h1>
+    <p>Order Form, Enquiries & Feedback</p>
+</header>
+
+<div class="container">
+
+<!-- ORDER FORM -->
+<section>
+
+<h2>Bubble Tea Order Form</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" name="fullname" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Phone Number</label>
+<input type="tel" name="phone">
+
+<label>Select Drink</label>
+<select name="drink">
+    <option>Classic Milk Tea</option>
+    <option>Brown Sugar Milk Tea</option>
+    <option>Taro Milk Tea</option>
+    <option>Matcha Milk Tea</option>
+    <option>Thai Milk Tea</option>
+</select>
+
+<label>Size</label>
+<select name="size">
+    <option>Small</option>
+    <option>Medium</option>
+    <option>Large</option>
+</select>
+
+<label>Sugar Level</label>
+<select name="sugar">
+    <option>0%</option>
+    <option>25%</option>
+    <option>50%</option>
+    <option>75%</option>
+    <option>100%</option>
+</select>
+
+<label>Ice Level</label>
+<select name="ice">
+    <option>No Ice</option>
+    <option>Less Ice</option>
+    <option>Normal Ice</option>
+    <option>Extra Ice</option>
+</select>
+
+<label>Quantity</label>
+<input type="number" min="1" max="10" value="1">
+
+<label>Special Instructions</label>
+<textarea rows="4"></textarea>
+
+<input type="submit" value="Place Order">
+<input type="reset" value="Clear Form">
+
+</form>
+
+</section>
+
+<!-- ENQUIRIES -->
+
+<section>
+
+<h2>Enquiries Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Subject</label>
+<input type="text">
+
+<label>Your Enquiry</label>
+<textarea rows="5"></textarea>
+
+<input type="submit" value="Submit Enquiry">
+<input type="reset" value="Reset">
+
+</form>
+
+</section>
+
+<!-- FEEDBACK -->
+
+<section>
+
+<h2>Feedback Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text">
+
+<label>Email</label>
+<input type="email">
+
+<label>Rate Our Service</label>
+
+<input type="radio" name="rating"> Excellent<br>
+<input type="radio" name="rating"> Good<br>
+<input type="radio" name="rating"> Average<br>
+<input type="radio" name="rating"> Poor<br>
+
+<label>What did you like?</label>
+<textarea rows="4"></textarea>
+
+<label>Suggestions for Improvement</label>
+<textarea rows="4"></textarea>
+
+<input type="submit" value="Send Feedback">
+<input type="reset" value="Reset">
+
+</form>
+
+</section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Bubble Tea Bros. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
